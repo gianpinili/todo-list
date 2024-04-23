@@ -1,17 +1,9 @@
-import { AlignJustify, UserRound } from "lucide-react";
-
 function Header() {
   return (
     <>
-      <nav className="flex justify-between m-10">
+      <nav className="text-center m-10">
         <div>
-          <AlignJustify className="text-white" />
-        </div>
-        <div>
-          <h1 className="text-3xl text-white">Tasks for Today</h1>
-        </div>
-        <div>
-          <UserRound className="text-white" />
+          <h1 className="text-3xl text-white">Todo List</h1>
         </div>
       </nav>
     </>
